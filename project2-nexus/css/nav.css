@@ -1,0 +1,25 @@
+nav{
+  display: block;
+  padding-bottom: 10px;
+  background-color: rgba(142,141,138, 0);
+  border: none;
+  box-shadow: none!important;
+}
+
+nav a{
+  font-family: 'Ariel', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 10px 20px;
+  padding: 5px 10px;
+  text-shadow: 0 0 10px rgba(255, 251, 16, 1.0);
+}
+
+nav a:hover{
+  background-color: #E98074;
+  color: white;
+  transition: .2s linear;
+}
